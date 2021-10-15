@@ -1,0 +1,3 @@
+compile
+cd server
+run
