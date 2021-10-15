@@ -1,6 +1,7 @@
 package com.plugin.plugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
+import com.plugin.plugin.SimpleCommand;
 
 public final class Main extends JavaPlugin
 {
@@ -8,6 +9,7 @@ public final class Main extends JavaPlugin
     public void onEnable()
     {
         System.out.println("[Plugin] §aCode Load");
+        this.getCommand("test").setExecutor(new SimpleCommand());
     }
 
     @Override
