@@ -23,6 +23,7 @@ public class SimpleCommand implements CommandExecutor {
             itemmeta.setDisplayName("Thicc Pickaxe");
             itemmeta.setLore(Arrays.asList("This is a very THICC pickaxe." ));
             item.setItemMeta(itemmeta);
+            player.getInventory().addItem(item);
         }
 
         System.out.println("Hello!");
