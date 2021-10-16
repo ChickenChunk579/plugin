@@ -1,4 +1,5 @@
-*.class
+src/com/plugin/plugin/SimpleCommand.class
+src/com/plugin/plugin/Main.class
 tmp
 server/*
 lib/*

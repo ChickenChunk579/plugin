@@ -1,91 +1,62 @@
-[07:58:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07:58:35] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[07:58:36] [Worker-Main-11/INFO]: Loaded 7 recipes
-[07:58:38] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[07:58:38] [Server thread/INFO]: Loading properties
-[07:58:38] [Server thread/INFO]: Default game type: SURVIVAL
-[07:58:38] [Server thread/INFO]: Generating keypair
-[07:58:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:58:38] [Server thread/INFO]: Using default channel type
-[07:58:39] [Server thread/INFO]: This server is running CraftBukkit version 3258-Bukkit-960f310 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
-[07:58:40] [Server thread/INFO]: [Plugin] Loading Plugin v1.0.0
-[07:58:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:58:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:58:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:58:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:58:40] [Server thread/INFO]: Preparing level "world"
-[07:58:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:58:40] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[07:58:41] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[07:58:41] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[07:58:42] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[07:58:45] [Worker-Main-13/INFO]: Preparing spawn area: 2%
-[07:58:45] [Worker-Main-13/INFO]: Preparing spawn area: 2%
-[07:58:45] [Worker-Main-13/INFO]: Preparing spawn area: 2%
-[07:58:45] [Worker-Main-8/INFO]: Preparing spawn area: 3%
-[07:58:45] [Worker-Main-14/INFO]: Preparing spawn area: 3%
-[07:58:45] [Worker-Main-13/INFO]: Preparing spawn area: 3%
-[07:58:45] [Worker-Main-14/INFO]: Preparing spawn area: 3%
-[07:58:46] [Worker-Main-14/INFO]: Preparing spawn area: 6%
-[07:58:46] [Worker-Main-14/INFO]: Preparing spawn area: 9%
-[07:58:47] [Worker-Main-14/INFO]: Preparing spawn area: 9%
-[07:58:47] [Worker-Main-11/INFO]: Preparing spawn area: 9%
-[07:58:48] [Worker-Main-9/INFO]: Preparing spawn area: 71%
-[07:58:48] [Worker-Main-9/INFO]: Preparing spawn area: 74%
-[07:58:49] [Worker-Main-14/INFO]: Preparing spawn area: 83%
-[07:58:49] [Worker-Main-14/INFO]: Preparing spawn area: 85%
-[07:58:50] [Worker-Main-10/INFO]: Preparing spawn area: 94%
-[07:58:50] [Worker-Main-13/INFO]: Preparing spawn area: 96%
-[07:58:50] [Server thread/INFO]: Time elapsed: 10404 ms
-[07:58:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:58:51] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[07:58:51] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[07:58:51] [Worker-Main-12/INFO]: Preparing spawn area: 4%
-[07:58:52] [Worker-Main-10/INFO]: Preparing spawn area: 36%
-[07:58:53] [Worker-Main-11/INFO]: Preparing spawn area: 72%
-[07:58:53] [Worker-Main-11/INFO]: Preparing spawn area: 80%
-[07:58:53] [Worker-Main-8/INFO]: Preparing spawn area: 84%
-[07:58:54] [Worker-Main-14/INFO]: Preparing spawn area: 92%
-[07:58:54] [Server thread/INFO]: Time elapsed: 3967 ms
-[07:58:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:58:55] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[07:58:55] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[07:58:55] [Worker-Main-13/INFO]: Preparing spawn area: 61%
-[07:58:56] [Server thread/INFO]: Time elapsed: 1272 ms
-[07:58:56] [Server thread/INFO]: [Plugin] Enabling Plugin v1.0.0
-[07:58:56] [Server thread/INFO]: [Plugin] §aCode Load
-[07:58:56] [Server thread/ERROR]: Error occurred while enabling Plugin v1.0.0 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "org.bukkit.command.PluginCommand.setExecutor(org.bukkit.command.CommandExecutor)" because the return value of "com.plugin.plugin.Main.getCommand(String)" is null
-	at com.plugin.plugin.Main.onEnable(Main.java:12) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:334) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:506) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:432) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:609) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:253) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:987) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:295) ~[craftbukkit-1.17.1.jar:3258-Bukkit-960f310]
-	at java.lang.Thread.run(Thread.java:831) [?:?]
-[07:58:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:58:56] [Server thread/INFO]: Done (16.295s)! For help, type "help"
-[07:59:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
-[07:59:22] [Server thread/INFO]: RobotReaction[/127.0.0.1:56950] logged in with entity id 293 at ([world]4.505977405511601, 67.88904401654978, 121.78812080218715)
-[07:59:40] [Server thread/INFO]: RobotReaction issued server command: /test
-[08:00:46] [Server thread/INFO]: Plugins (1): [0;32;1mPlugin[m
-[08:00:50] [Server thread/INFO]: Plugins (1): [0;32;1mPlugin[m
-[08:01:02] [Server thread/INFO]: Stopping the server
-[08:01:02] [Server thread/INFO]: Stopping server
-[08:01:02] [Server thread/INFO]: [Plugin] Disabling Plugin v1.0.0
-[08:01:02] [Server thread/INFO]: [Plugin] §bCode Unload
-[08:01:02] [Server thread/INFO]: Saving players
-[08:01:02] [Server thread/INFO]: RobotReaction lost connection: Server closed
-[08:01:02] [Server thread/INFO]: RobotReaction left the game
-[08:01:02] [Server thread/INFO]: Saving worlds
-[08:01:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:01:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[08:01:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[08:01:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:01:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:01:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:01:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:02:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:02:05] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[08:02:05] [Worker-Main-11/INFO]: Loaded 7 recipes
+[08:02:07] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[08:02:07] [Server thread/INFO]: Loading properties
+[08:02:07] [Server thread/INFO]: Default game type: SURVIVAL
+[08:02:07] [Server thread/INFO]: Generating keypair
+[08:02:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:02:07] [Server thread/INFO]: Using default channel type
+[08:02:08] [Server thread/INFO]: This server is running CraftBukkit version 3258-Bukkit-960f310 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[08:02:08] [Server thread/INFO]: [Plugin] Loading Plugin v1.0.0
+[08:02:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:02:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:02:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:02:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:02:08] [Server thread/INFO]: Preparing level "world"
+[08:02:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:02:09] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[08:02:09] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 23%
+[08:02:15] [Worker-Main-11/INFO]: Preparing spawn area: 62%
+[08:02:15] [Worker-Main-9/INFO]: Preparing spawn area: 64%
+[08:02:16] [Worker-Main-11/INFO]: Preparing spawn area: 69%
+[08:02:16] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[08:02:17] [Worker-Main-10/INFO]: Preparing spawn area: 84%
+[08:02:17] [Worker-Main-13/INFO]: Preparing spawn area: 91%
+[08:02:18] [Server thread/INFO]: Time elapsed: 8975 ms
+[08:02:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:02:18] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[08:02:18] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[08:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 9%
+[08:02:19] [Worker-Main-11/INFO]: Preparing spawn area: 68%
+[08:02:20] [Worker-Main-12/INFO]: Preparing spawn area: 73%
+[08:02:20] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[08:02:21] [Worker-Main-14/INFO]: Preparing spawn area: 86%
+[08:02:21] [Worker-Main-8/INFO]: Preparing spawn area: 92%
+[08:02:22] [Server thread/INFO]: Time elapsed: 3892 ms
+[08:02:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:02:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[08:02:22] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[08:02:23] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[08:02:23] [Server thread/INFO]: Time elapsed: 1120 ms
+[08:02:23] [Server thread/INFO]: [Plugin] Enabling Plugin v1.0.0
+[08:02:23] [Server thread/INFO]: [Plugin] §aCode Load
+[08:02:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:02:23] [Server thread/INFO]: Done (14.460s)! For help, type "help"
+[08:02:29] [Server thread/INFO]: RobotReaction[/127.0.0.1:56987] logged in with entity id 287 at ([world]-3.281736699898841, 64.0, 140.94060114073778)
+[08:02:36] [Server thread/INFO]: RobotReaction issued server command: /getpickaxe
+[08:02:36] [Server thread/INFO]: Hello!
+[08:02:52] [Server thread/INFO]: RobotReaction issued server command: /getpickaxe
+[08:02:52] [Server thread/INFO]: Hello!
+[08:04:45] [Server thread/INFO]: RobotReaction lost connection: Disconnected
+[08:04:45] [Server thread/INFO]: RobotReaction left the game
