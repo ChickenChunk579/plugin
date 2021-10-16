@@ -7,13 +7,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.command.Command;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
-import org.bukkit.craftbukkit.v1_15_R1.inventory.CraftItemStack;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.inventory.ItemFlag;
-import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
-
-import net.minecraft.server.v1_15_R1.NBTTagCompound;
+import java.util.Arrays;
 
 public class SimpleCommand implements CommandExecutor {
 
@@ -28,9 +23,6 @@ public class SimpleCommand implements CommandExecutor {
             itemmeta.setDisplayName("Thicc Pickaxe");
             itemmeta.setLore(Arrays.asList("This is a very THICC pickaxe." ));
             item.setItemMeta(itemmeta);
-
-            // Give the player our items (comma-seperated list of all ItemStack)
-            player.getInventory().addItem(bricks, diamond);
         }
 
         System.out.println("Hello!");
