@@ -9,7 +9,7 @@ public final class Main extends JavaPlugin
     public void onEnable()
     {
         System.out.println("[Plugin] §aCode Load");
-        this.getCommand("test").setExecutor(new SimpleCommand());
+        this.getCommand("getpickaxe").setExecutor(new SimpleCommand());
     }
 
     @Override

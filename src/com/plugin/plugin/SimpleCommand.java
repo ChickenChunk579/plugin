@@ -7,6 +7,13 @@ import org.bukkit.entity.Player;
 import org.bukkit.command.Command;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.Material;
+import org.bukkit.craftbukkit.v1_15_R1.inventory.CraftItemStack;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemFlag;
+import org.bukkit.inventory.ShapedRecipe;
+import org.bukkit.inventory.meta.ItemMeta;
+
+import net.minecraft.server.v1_15_R1.NBTTagCompound;
 
 public class SimpleCommand implements CommandExecutor {
 
@@ -15,13 +22,12 @@ public class SimpleCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player) sender;
-            ItemStack diamond = new ItemStack(Material.DIAMOND);
-
-            // Create a new ItemStack (type: brick)
-            ItemStack bricks = new ItemStack(Material.BRICK);
-
-            // Set the amount of the ItemStack
-            bricks.setAmount(20);
+            ItemStack item = new ItemStack(Material.DIAMOND_PICKAXE);
+            
+            ItemMeta itemmeta = item.getItemMeta();
+            itemmeta.setDisplayName("Thicc Pickaxe");
+            itemmeta.setLore(Arrays.asList("This is a very THICC pickaxe." ));
+            item.setItemMeta(itemmeta);
 
             // Give the player our items (comma-seperated list of all ItemStack)
             player.getInventory().addItem(bricks, diamond);
