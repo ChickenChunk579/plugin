@@ -1,62 +1,78 @@
-[08:02:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08:02:05] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[08:02:05] [Worker-Main-11/INFO]: Loaded 7 recipes
-[08:02:07] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[08:02:07] [Server thread/INFO]: Loading properties
-[08:02:07] [Server thread/INFO]: Default game type: SURVIVAL
-[08:02:07] [Server thread/INFO]: Generating keypair
-[08:02:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:02:07] [Server thread/INFO]: Using default channel type
-[08:02:08] [Server thread/INFO]: This server is running CraftBukkit version 3258-Bukkit-960f310 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
-[08:02:08] [Server thread/INFO]: [Plugin] Loading Plugin v1.0.0
-[08:02:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:02:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:02:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:02:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:02:08] [Server thread/INFO]: Preparing level "world"
-[08:02:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:02:09] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[08:02:09] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[08:02:14] [Worker-Main-10/INFO]: Preparing spawn area: 23%
-[08:02:15] [Worker-Main-11/INFO]: Preparing spawn area: 62%
-[08:02:15] [Worker-Main-9/INFO]: Preparing spawn area: 64%
-[08:02:16] [Worker-Main-11/INFO]: Preparing spawn area: 69%
-[08:02:16] [Worker-Main-12/INFO]: Preparing spawn area: 83%
-[08:02:17] [Worker-Main-10/INFO]: Preparing spawn area: 84%
-[08:02:17] [Worker-Main-13/INFO]: Preparing spawn area: 91%
-[08:02:18] [Server thread/INFO]: Time elapsed: 8975 ms
-[08:02:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:02:18] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[08:02:18] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[08:02:19] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[08:02:19] [Worker-Main-11/INFO]: Preparing spawn area: 68%
-[08:02:20] [Worker-Main-12/INFO]: Preparing spawn area: 73%
-[08:02:20] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[08:02:21] [Worker-Main-14/INFO]: Preparing spawn area: 86%
-[08:02:21] [Worker-Main-8/INFO]: Preparing spawn area: 92%
-[08:02:22] [Server thread/INFO]: Time elapsed: 3892 ms
-[08:02:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:02:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[08:02:22] [Worker-Main-13/INFO]: Preparing spawn area: 4%
-[08:02:23] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[08:02:23] [Server thread/INFO]: Time elapsed: 1120 ms
-[08:02:23] [Server thread/INFO]: [Plugin] Enabling Plugin v1.0.0
-[08:02:23] [Server thread/INFO]: [Plugin] §aCode Load
-[08:02:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:02:23] [Server thread/INFO]: Done (14.460s)! For help, type "help"
-[08:02:29] [Server thread/INFO]: RobotReaction[/127.0.0.1:56987] logged in with entity id 287 at ([world]-3.281736699898841, 64.0, 140.94060114073778)
-[08:02:36] [Server thread/INFO]: RobotReaction issued server command: /getpickaxe
-[08:02:36] [Server thread/INFO]: Hello!
-[08:02:52] [Server thread/INFO]: RobotReaction issued server command: /getpickaxe
-[08:02:52] [Server thread/INFO]: Hello!
-[08:04:45] [Server thread/INFO]: RobotReaction lost connection: Disconnected
-[08:04:45] [Server thread/INFO]: RobotReaction left the game
+[15:34:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:34:32] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[15:34:32] [Worker-Main-9/INFO]: Loaded 7 recipes
+[15:34:34] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[15:34:34] [Server thread/INFO]: Loading properties
+[15:34:34] [Server thread/INFO]: Default game type: SURVIVAL
+[15:34:34] [Server thread/INFO]: Generating keypair
+[15:34:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:34:34] [Server thread/INFO]: Using default channel type
+[15:34:35] [Server thread/INFO]: This server is running CraftBukkit version 3258-Bukkit-960f310 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT)
+[15:34:35] [Server thread/INFO]: [Plugin] Loading Plugin v1.0.0
+[15:34:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:34:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:34:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:34:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:34:35] [Server thread/INFO]: Preparing level "world"
+[15:34:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:34:36] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[15:34:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[15:34:37] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[15:34:41] [Worker-Main-14/INFO]: Preparing spawn area: 25%
+[15:34:42] [Worker-Main-12/INFO]: Preparing spawn area: 64%
+[15:34:42] [Worker-Main-10/INFO]: Preparing spawn area: 72%
+[15:34:43] [Worker-Main-11/INFO]: Preparing spawn area: 81%
+[15:34:43] [Worker-Main-8/INFO]: Preparing spawn area: 87%
+[15:34:44] [Worker-Main-11/INFO]: Preparing spawn area: 88%
+[15:34:44] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[15:34:44] [Server thread/INFO]: Time elapsed: 8720 ms
+[15:34:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:34:45] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[15:34:45] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[15:34:45] [Worker-Main-11/INFO]: Preparing spawn area: 5%
+[15:34:46] [Worker-Main-11/INFO]: Preparing spawn area: 69%
+[15:34:46] [Worker-Main-12/INFO]: Preparing spawn area: 76%
+[15:34:47] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[15:34:48] [Worker-Main-12/INFO]: Preparing spawn area: 90%
+[15:34:48] [Worker-Main-12/INFO]: Preparing spawn area: 95%
+[15:34:48] [Server thread/INFO]: Time elapsed: 3698 ms
+[15:34:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:34:48] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[15:34:49] [Worker-Main-12/INFO]: Preparing spawn area: 11%
+[15:34:49] [Worker-Main-10/INFO]: Preparing spawn area: 95%
+[15:34:49] [Server thread/INFO]: Time elapsed: 1027 ms
+[15:34:49] [Server thread/INFO]: [Plugin] Enabling Plugin v1.0.0
+[15:34:49] [Server thread/INFO]: [Plugin] §aCode Load
+[15:34:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:34:49] [Server thread/INFO]: Done (13.912s)! For help, type "help"
+[15:35:26] [Server thread/INFO]: RobotReaction[/127.0.0.1:63834] logged in with entity id 300 at ([world]-37.038893274020566, 66.0, 100.29089330294653)
+[15:35:37] [Server thread/INFO]: RobotReaction issued server command: /getpickaxe
+[15:35:37] [Server thread/INFO]: You whisper to RobotReaction: hello
+[15:35:37] [Server thread/INFO]: Hello!
+[15:42:23] [Server thread/INFO]: Saving the game (this may take a moment!)
+[15:42:23] [Server thread/INFO]: Saved the game
+[15:42:37] [Server thread/INFO]: RobotReaction issued server command: /give @s minecraft:command_block
+[15:42:37] [Server thread/INFO]: [RobotReaction: Gave 1 [Command Block] to RobotReaction]
+[15:43:58] [Server thread/INFO]: RobotReaction lost connection: Disconnected
+[15:43:58] [Server thread/INFO]: RobotReaction left the game
+[15:44:02] [Server thread/INFO]: Stopping the server
+[15:44:02] [Server thread/INFO]: Stopping server
+[15:44:02] [Server thread/INFO]: [Plugin] Disabling Plugin v1.0.0
+[15:44:02] [Server thread/INFO]: [Plugin] §bCode Unload
+[15:44:02] [Server thread/INFO]: Saving players
+[15:44:02] [Server thread/INFO]: Saving worlds
+[15:44:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:44:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:44:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:44:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:44:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:44:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:44:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

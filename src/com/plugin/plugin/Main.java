@@ -1,7 +1,6 @@
 package com.plugin.plugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import com.plugin.plugin.SimpleCommand;
 
 public final class Main extends JavaPlugin
 {
